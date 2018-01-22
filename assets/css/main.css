@@ -1914,7 +1914,7 @@
 			position: relative;
 			top: -1em;
 			color: #888888;
-			text-transform: uppercase;
+			/* text-transform: uppercase; */
 			letter-spacing: 0.075em;
 		}
 
@@ -2515,7 +2515,7 @@
 
 	#header {
 		background-attachment: scroll,							scroll,					fixed;
-		background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+		background-image: url("images/top-1600.svg"), url("images/gunks.jpg"), url("../../images/header.jpg");
 		background-position: bottom center,					top left,				center center;
 		background-repeat: repeat-x,						repeat,					no-repeat;
 		background-size: 3200px 460px,					auto,					cover;
@@ -2546,12 +2546,13 @@
 		}
 
 		#header a {
-			border-bottom-color: rgba(255, 255, 255, 0.35);
+			/* border-bottom-color: rgba(255, 255, 255, 0.35); */
+			margin-top: 25px;
 			color: rgba(255, 255, 255, 0.8);
 		}
 
 			#header a:hover {
-				border-bottom-color: transparent;
+				/* border-bottom-color: transparent; */
 				color: #4eb980;
 			}
 
@@ -2562,6 +2563,8 @@
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
 			color: #ffffff;
 		}
+
+
 
 		#header input[type="submit"],
 		#header input[type="reset"],
@@ -2600,6 +2603,8 @@
 			line-height: 1.5em;
 			margin: 0.25em 0 0 0;
 		}
+
+
 
 /* Footer */
 
@@ -2831,7 +2836,7 @@
 
 			#header {
 				background-attachment: scroll,							scroll,							scroll;
-				background-image: url("images/top-1600.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+				background-image: url("images/top-1600.svg"), url("images/gunks.jpg"), url("../../images/header.jpg");
 				background-size: 1600px 230px,					auto,							cover;
 				padding: 6em 0 12em 0;
 			}
@@ -2918,6 +2923,9 @@
 			}
 
 		/* Section/Article */
+			.my-story {
+
+			}
 
 			header p {
 				font-size: 0.8em;
