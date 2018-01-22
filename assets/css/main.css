@@ -48,12 +48,23 @@
 		-webkit-text-size-adjust: none;
 	}
 
-/* My Picture s*/
+/* My Pictures */
 	#header .profile-pic {
 		border-radius: 100%;
 		width: 180px;
 		height: 180px;
 		position: relative;
+	}
+
+	.skills-images {
+		display: flex;
+    flex-wrap: wrap;
+	}
+
+	.skills-images img {
+		max-width: 170px;
+		max-height: 170px;
+		margin: 15px;
 	}
 
 /* Box Model */
@@ -2641,6 +2652,7 @@
 
 		#footer a {
 			color: #ffffff;
+			margin-top: 20px;
 		}
 
 		#footer strong, #footer b {
