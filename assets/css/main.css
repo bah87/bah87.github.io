@@ -48,6 +48,20 @@
 		-webkit-text-size-adjust: none;
 	}
 
+/* Education */
+	.edu-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.college-img {
+		max-width: 150px;
+		max-height: 150px;
+		margin-right: 55px;
+		border: none;
+	}
+
 /* My Pictures */
 	#header .profile-pic {
 		border-radius: 100%;
