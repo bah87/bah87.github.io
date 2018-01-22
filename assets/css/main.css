@@ -48,18 +48,19 @@
 		-webkit-text-size-adjust: none;
 	}
 
-/* Education */
-	.edu-container {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
 	.college-img {
-		max-width: 150px;
-		max-height: 150px;
+		max-width: 120px;
+		max-height: 120px;
 		margin-right: 55px;
 		border: none;
+	}
+
+	.college-img:hover {
+		-webkit-transform: scale(0.75);
+		-moz-transform: scale(0.75);
+		-o-transform: scale(0.75);
+    -ms-transform: scale(0.75);
+    transform: scale(0.75);
 	}
 
 /* My Pictures */
